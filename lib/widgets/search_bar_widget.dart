@@ -51,7 +51,6 @@ class _SearchBarWidgetState extends State<SearchBarWidget> {
                   fontFamily: 'Montserrat'),
               hintText: 'Restaurants,foods,drinks',
               prefixIcon: Icon(Icons.search, color: Colors.grey[800]),
-              // suffixIcon: Icon(Icons.filter_list),
               contentPadding: EdgeInsets.all(10),
             ),
           ),

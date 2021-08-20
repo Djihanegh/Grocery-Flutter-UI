@@ -16,8 +16,8 @@ final _privateConstructorUsedError = UnsupportedError(
 class _$GroceryEventTearOff {
   const _$GroceryEventTearOff();
 
-  LoginUser loginUser() {
-    return const LoginUser();
+  AddToCart addToCart() {
+    return const AddToCart();
   }
 }
 
@@ -28,23 +28,23 @@ const $GroceryEvent = _$GroceryEventTearOff();
 mixin _$GroceryEvent {
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function() loginUser,
+    required TResult Function() addToCart,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function()? loginUser,
+    TResult Function()? addToCart,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(LoginUser value) loginUser,
+    required TResult Function(AddToCart value) addToCart,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(LoginUser value)? loginUser,
+    TResult Function(AddToCart value)? addToCart,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -67,34 +67,34 @@ class _$GroceryEventCopyWithImpl<$Res> implements $GroceryEventCopyWith<$Res> {
 }
 
 /// @nodoc
-abstract class $LoginUserCopyWith<$Res> {
-  factory $LoginUserCopyWith(LoginUser value, $Res Function(LoginUser) then) =
-      _$LoginUserCopyWithImpl<$Res>;
+abstract class $AddToCartCopyWith<$Res> {
+  factory $AddToCartCopyWith(AddToCart value, $Res Function(AddToCart) then) =
+      _$AddToCartCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class _$LoginUserCopyWithImpl<$Res> extends _$GroceryEventCopyWithImpl<$Res>
-    implements $LoginUserCopyWith<$Res> {
-  _$LoginUserCopyWithImpl(LoginUser _value, $Res Function(LoginUser) _then)
-      : super(_value, (v) => _then(v as LoginUser));
+class _$AddToCartCopyWithImpl<$Res> extends _$GroceryEventCopyWithImpl<$Res>
+    implements $AddToCartCopyWith<$Res> {
+  _$AddToCartCopyWithImpl(AddToCart _value, $Res Function(AddToCart) _then)
+      : super(_value, (v) => _then(v as AddToCart));
 
   @override
-  LoginUser get _value => super._value as LoginUser;
+  AddToCart get _value => super._value as AddToCart;
 }
 
 /// @nodoc
 
-class _$LoginUser implements LoginUser {
-  const _$LoginUser();
+class _$AddToCart implements AddToCart {
+  const _$AddToCart();
 
   @override
   String toString() {
-    return 'GroceryEvent.loginUser()';
+    return 'GroceryEvent.addToCart()';
   }
 
   @override
   bool operator ==(dynamic other) {
-    return identical(this, other) || (other is LoginUser);
+    return identical(this, other) || (other is AddToCart);
   }
 
   @override
@@ -103,19 +103,19 @@ class _$LoginUser implements LoginUser {
   @override
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function() loginUser,
+    required TResult Function() addToCart,
   }) {
-    return loginUser();
+    return addToCart();
   }
 
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function()? loginUser,
+    TResult Function()? addToCart,
     required TResult orElse(),
   }) {
-    if (loginUser != null) {
-      return loginUser();
+    if (addToCart != null) {
+      return addToCart();
     }
     return orElse();
   }
@@ -123,26 +123,26 @@ class _$LoginUser implements LoginUser {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(LoginUser value) loginUser,
+    required TResult Function(AddToCart value) addToCart,
   }) {
-    return loginUser(this);
+    return addToCart(this);
   }
 
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(LoginUser value)? loginUser,
+    TResult Function(AddToCart value)? addToCart,
     required TResult orElse(),
   }) {
-    if (loginUser != null) {
-      return loginUser(this);
+    if (addToCart != null) {
+      return addToCart(this);
     }
     return orElse();
   }
 }
 
-abstract class LoginUser implements GroceryEvent {
-  const factory LoginUser() = _$LoginUser;
+abstract class AddToCart implements GroceryEvent {
+  const factory AddToCart() = _$AddToCart;
 }
 
 /// @nodoc

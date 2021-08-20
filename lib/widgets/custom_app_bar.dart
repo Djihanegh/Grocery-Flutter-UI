@@ -13,23 +13,26 @@ class CustomAppBar extends StatelessWidget {
         Text(
           '''Online Food
 Delivery!''',
-          style: TextStyle(fontSize: 25, fontFamily: 'Montserrat' , fontWeight: FontWeight.bold),
+          style: TextStyle(
+              fontSize: 25,
+              fontFamily: 'Montserrat',
+              fontWeight: FontWeight.bold),
           textAlign: TextAlign.start,
         ),
         Container(
-
           height: 50,
-          decoration: BoxDecoration(
-
-              boxShadow: [
+          decoration: BoxDecoration(boxShadow: [
             BoxShadow(
               color: Colors.grey,
               offset: Offset(0.0, 1.0), //(x,y)
               blurRadius: 6.0,
             ),
-          ], borderRadius: BorderRadius.circular(15), color: orange ),
+          ], borderRadius: BorderRadius.circular(15), color: orange),
           child: IconButton(
-            icon: Icon(Icons.notification_important_outlined , color: Colors.white,),
+            icon: Icon(
+              Icons.notification_important_outlined,
+              color: Colors.white,
+            ),
             onPressed: () {},
           ),
         )

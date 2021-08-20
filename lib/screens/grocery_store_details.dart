@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:grocey_store_flutter/models/grocery_product.dart';
+import 'package:grocey_store_flutter/utils/utils.dart';
 
 class GroceryStoreDetails extends StatefulWidget {
   const GroceryStoreDetails(
@@ -122,7 +123,7 @@ class _GroceryStoreDetailsState extends State<GroceryStoreDetails> {
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30),
                     ),
-                    color: Color(0xFFF4C459),
+                    color: orange,
                     child: Padding(
                       padding: const EdgeInsets.symmetric(vertical: 15.0),
                       child: Text(

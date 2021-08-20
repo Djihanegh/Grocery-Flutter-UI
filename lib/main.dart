@@ -83,7 +83,6 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                         ],
                       )))),
-
           Container(
               padding: const EdgeInsets.only(top: 20),
               height: bottomNavBarHeight,
@@ -156,7 +155,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ],
               )),
-          // Container(height: 100, color: Colors.black, child: Text("")),
         ]));
   }
 }
