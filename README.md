@@ -1,8 +1,11 @@
 # grocey_store_flutter
 
-A new Flutter application.
+A basic UI challenge.
 
-## Getting Started
+## Demo:
+
+![video-to-gif-converter](https://user-images.githubusercontent.com/40029149/130257547-a89e35ef-5505-4e87-a303-4998207fba96.gif)
+
 
 This project is a starting point for a Flutter application.
 
